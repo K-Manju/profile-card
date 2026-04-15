@@ -1,0 +1,35 @@
+body{
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 200px;
+    height: 500px;
+    border: 2px solid;
+    background: white;
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    border: 2px solid white;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+button{
+    border: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #44ACFF;
+    padding: 5px 15px;
+}
