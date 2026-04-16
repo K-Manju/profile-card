@@ -1,5 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
-    background: grey;
+    background: rgb(241, 240, 240);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,10 +13,11 @@ body{
 }
 
 .card{
-    width: 200px;
-    height: 500px;
-    border: 2px solid;
+    width: 250px;
+    height: 310px;
+    border-radius: 20px;
     background: white;
+    background: linear-gradient(to bottom, #44ACFF 30%, white 0%);
 }
 
 .profile{
@@ -18,12 +25,24 @@ body{
     height: 100px;
     border-radius:50%;
     border: 2px solid white;
+    display: block;
+    margin: 0 auto; 
+    margin-top: 20px;
+    border: 2px solid white;
+    outline: 2px solid #44ACFF; 
 }
 
 .logo img{
+    margin-top: 50px;
     height: 30px;
     width: 30px;
     margin: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 button{
@@ -32,4 +51,43 @@ button{
     border-radius: 30px;
     background-color: #44ACFF;
     padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.work{
+    text-align: center;
+    color: #838789;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #838789;
+}
+
+.stats span img{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.pipe {
+  display: flex;
+  align-items: center;
 }
